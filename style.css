@@ -1,0 +1,14 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.main-title {
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: xxx-large;
+    color: darkviolet;
+    background-color: aquamarine;
+}
+
+h3 {
+    color: darkblue;
+}
