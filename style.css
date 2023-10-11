@@ -2,11 +2,17 @@
     font-family: Arial, sans-serif;
 }
 
+.center {
+    text-align: center;
+}
+
 #main-title {
     font-family: "Arial Black", Arial, sans-serif;
-    font-size: xxx-large;
+    font-size: 100px;
     color: darkviolet;
     background-color: aquamarine;
+    height: 140px;
+    padding: 20px;
 }
 
 h2 {
@@ -17,9 +23,9 @@ h3 {
     color: red;
 }
 
-th {
-    width: 100px;
-    color: white;
+.link {
+    font-size: x-large;
+    padding: 50px;
 }
 
 a:visited {
