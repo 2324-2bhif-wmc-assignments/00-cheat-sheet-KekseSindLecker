@@ -6,99 +6,13 @@
         <link type="text/css" rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 class ="main-title">Cheat Sheet</h1>
-        <article>
-            <section>
-                <h3>World Wide Web General</h3>
-                <ul>
-                    <li>HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the web. It's a protocol that defines how information is exchanged between a web and a web server.</li>
-                    <li>HTML (Hypertext Markup Language) is the standard language used to create and structure content on the World Wide Web.</li>
-                    <li>
-                        A URL (Uniform Resource Locator) is a reference to a resource that specifies its location on the internet.<br>
-                        The syntax of a URL is as follows:<br>
-                        scheme ":" ["//" authority] path ["?" query] ["#" fragment]
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h3>Web Server</h3>
-                <ul>
-                    <li>A web server is computer software and underlying hardware that accepts requests via HTTP(S).</li>
-                    <li>It accepts (or refuses) requests from web clients and serves them web pages in response.</li>
-                    <li>Web servers often store files in their file system. These files can include HTML documents, images, videos, scripts, and more.</li>
-                    <li>Web content refers to the textual, aural, or visual content published on a website.</li>
-                </ul>
-            </section>
-            <section>
-                <h3>Web Client</h3>
-                <ul>
-                    <li>A web client is a client-side application used for connecting to a web server over HTTP(S).</li>
-                    <li>It interacts with DNS/web servers to access and retrieve information from the World Wide Web.</li>
-                    <li>Web clients and web browsers are not the same, but they often interact with each other.</li>
-                </ul>
-            </section>
-            <section>
-                <h3>Hello World</h3>
-                <ul>
-                    <li>&lt;!DOCTYPE html&gt; is used to declare that the document is written in HTML</li>
-                    <li>The &lt;head&gt; element contains meta-information about the document that is not displayed on the webpage itself.</li>
-                    <li>The two top most elements within the html element are &lt;head&gt; and &lt;body&gt;.</li>
-                    <li>Emphasizing/Marking up text in web content can be done using various HTML tags and CSS styles.</li>
-                </ul>
-            </section>
-            <section>
-                <h3>HTML</h3>
-                <h4>Basic structure</h4>
-                <p>
-                    &lt;!DOCTYPE html&gt; <br>
-                    &lt;html&gt; <br>
-                    &emsp;&lt;head&gt; <br>
-                    &emsp;&emsp;&lt;meta charset="UTF-8"&gt; <br>
-                    &emsp;&emsp;&lt;title&gt;Title&lt;/title&gt; <br>
-                    &emsp;&lt;/head&gt; <br>
-                    &emsp;&lt;body&gt; <br>
-                    &emsp;&lt;/body&gt; <br>
-                    &lt;/html&gt;
-                </p>
-                <h4>Void Elements and Attributes</h4>
-                <p>
-                    Void elements in HTML are self-closing tags like &lt;img&gt;, &lt;br&gt;, and &lt;input&gt; that don't have a closing tag and don't contain content. <br>
-                    Example: &lt;link type="text/css" rel="stylesheet" href="style.css"&gt; <br>
-                    Attributes are e.g. "type", "rel", "href".
-                </p>
-                <h4>Anchor Tag</h4>
-                <p>
-                    The &lt;a&gt; element in HTML is used to create hyperlinks, allowing you to link to other web pages or resources on the internet like: <br> <br>
-                    &lt;a href="https://youtube.com"&gt; <br>
-                    &emsp;youtube.com <br>
-                    &lt;/a&gt;
-                </p>
-            </section>
-            <section>
-                <h3>Css</h3>
-                <h4>Basic Css Styling</h4>
-                <p>
-                    Example: <br> <br>
-                    h1 { <br>
-                    &emsp;font-family: Arial; <br>
-                    &emsp;color: darkblue; <br>
-                    }
-                </p>
-                <h4>Classes</h4>
-                <p>
-                    In HTML, you can create classes by doing this: <br>
-                    &lt;p class="my-class"&gt;This is a paragraph with a class.&lt;/p&gt; <br>
-                    <br>
-                    To use this class with Css, you have to set the selector to the .{class-name}. <br>
-                    <br>
-                    Example: <br>
-                    <br>
-                    .my-class { <br>
-                    &emsp;font-size: large; <br>
-                    &emsp;background-color: red; <br>
-                    }
-                </p>
-            </section>
-        </article>
+        <h1 id="main-title">Cheat Sheet</h1>
+        <table>
+            <tr>
+                <th><a id="basics" href="basics.html">Basics</a></th>
+                <th><a id="html_info" href="html_info.html">HTML</a></th>
+                <th><a id="css_info" href="css_info.html">CSS</a></th>
+            </tr>
+        </table>
     </body>
 </html>

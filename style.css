@@ -2,13 +2,26 @@
     font-family: Arial, sans-serif;
 }
 
-.main-title {
+#main-title {
     font-family: "Arial Black", Arial, sans-serif;
     font-size: xxx-large;
     color: darkviolet;
     background-color: aquamarine;
 }
 
+h2 {
+    color: mediumvioletred;
+}
+
 h3 {
-    color: darkblue;
+    color: red;
+}
+
+th {
+    width: 100px;
+    color: white;
+}
+
+a:visited {
+    color: blue;
 }
