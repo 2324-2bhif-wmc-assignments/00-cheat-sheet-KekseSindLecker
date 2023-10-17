@@ -2,8 +2,29 @@
     font-family: Arial, sans-serif;
 }
 
+a, a:visited {
+    color: darkslategrey;
+}
+
 .center {
     text-align: center;
+    margin: auto;
+}
+
+.link {
+    font-family: "Arial Black", sans-serif;
+    font-size: x-large;
+    padding: 50px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+    background-color: aqua;
+    padding: 25px 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
 }
 
 #main-title {
@@ -21,13 +42,4 @@ h2 {
 
 h3 {
     color: red;
-}
-
-.link {
-    font-size: x-large;
-    padding: 50px;
-}
-
-a:visited {
-    color: blue;
 }
