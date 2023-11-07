@@ -25,19 +25,18 @@ a, a:visited {
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 3rem;
+    transition: background-color 0.5s;
 }
 
-/*#extras {
+#extras {
     display: block;
+    width: 11rem;
     margin-top: 1.5rem;
-    width: 12rem;
-    justify-content: center;
-    align-items: center;
-}*/
+    margin-left: 39%;
+}
 
 .animation:hover {
-    text-decoration: underline darkslategrey;
-    text-decoration-thickness: 0.2rem;
+    background-color: mediumspringgreen;
 }
 
 #main-title {
