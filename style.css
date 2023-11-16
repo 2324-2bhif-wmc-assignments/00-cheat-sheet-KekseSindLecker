@@ -37,7 +37,21 @@ body {
     color: darkviolet;
     background-color: aquamarine;
     height: 8.75rem;
-    padding: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+#back-button {
+    font-family: "Arial Black", sans-serif;
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    margin-top: 0.5rem;
+    background-color: cadetblue;
+    border-radius: 1rem;
 }
 
 h2 {
