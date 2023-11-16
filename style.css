@@ -14,7 +14,7 @@ a, a:visited {
     display: none;
 }
 
-.link {
+.link, .link:visited {
     font-family: "Arial Black", sans-serif;
     font-size: x-large;
     text-decoration: none;
