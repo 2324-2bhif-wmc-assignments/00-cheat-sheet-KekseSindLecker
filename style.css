@@ -10,11 +10,11 @@ a, a:visited {
     text-align: center;
 }
 
-body {
-    overflow: hidden; /*hide scrollbar*/
+::-webkit-scrollbar {
+    display: none;
 }
 
-.animation {
+.link {
     font-family: "Arial Black", sans-serif;
     font-size: x-large;
     text-decoration: none;
@@ -27,7 +27,7 @@ body {
     transition: background-color 0.5s;
 }
 
-.animation:hover {
+.link:hover {
     background-color: mediumspringgreen;
 }
 
@@ -39,7 +39,7 @@ body {
     height: 8.75rem;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border-radius: 2rem;
 }
 
@@ -48,10 +48,14 @@ body {
     font-size: small;
     display: inline-block;
     text-decoration: none;
-    padding: 1rem 1.5rem;
-    margin-top: 0.5rem;
+    padding: 0.8rem 1.5rem;
     background-color: cadetblue;
     border-radius: 1rem;
+    transition: background-color 0.3s;
+}
+
+#back-button:hover {
+    background-color: darkgrey;
 }
 
 h2 {
