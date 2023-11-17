@@ -60,8 +60,12 @@ a, a:visited {
 
 h2 {
     color: mediumvioletred;
+    font-size: xx-large;
+    font-weight: 1000;
 }
 
 h3 {
     color: red;
+    font-size: x-large;
+    font-weight: 600;
 }
