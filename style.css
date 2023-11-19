@@ -23,6 +23,7 @@ a, a:visited {
     padding: 1.6rem 9rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
     border-radius: 3rem;
     transition: background-color 0.5s;
 }
