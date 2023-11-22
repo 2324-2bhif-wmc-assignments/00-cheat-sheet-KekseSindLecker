@@ -6,8 +6,18 @@ a, a:visited {
     color: #353C40;
 }
 
-.center {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    gap: 2rem;
+}
+
+.center {
+    justify-content: center;
 }
 
 ::-webkit-scrollbar {
@@ -25,14 +35,17 @@ a, a:visited {
     margin-right: 1rem;
     margin-bottom: 1rem;
     border-radius: 3rem;
-    transition: background-color 0.5s;
+    transition: background-color 0.3s, padding-bottom 0.3s, padding-left 0.3s, padding-right 0.3s, padding-top 0.3s, font-size 0.5s;
 }
 
 .link:hover {
     background-color: mediumspringgreen;
+    padding: 2rem 10rem 7rem;
+    font-size: xx-large;
 }
 
 #main-title {
+    text-align: center;
     font-family: "Arial Black", Arial, sans-serif;
     font-size: 6rem;
     color: darkviolet;
