@@ -35,12 +35,12 @@ a, a:visited {
     margin-right: 1rem;
     margin-bottom: 1rem;
     border-radius: 3rem;
-    transition: background-color 0.3s, padding-bottom 0.3s, padding-left 0.3s, padding-right 0.3s, padding-top 0.3s, font-size 0.5s;
+    transition: background-color 0.3s, padding-bottom 0.3s, padding-left 0.3s, padding-right 0.3s, padding-top 0.3s, font-size 0.3s;
 }
 
 .link:hover {
     background-color: mediumspringgreen;
-    padding: 2rem 10rem 7rem;
+    padding: 2rem 8.2rem 8rem;
     font-size: xx-large;
 }
 
