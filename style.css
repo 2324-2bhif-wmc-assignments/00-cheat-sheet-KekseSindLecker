@@ -30,17 +30,18 @@ a, a:visited {
     text-decoration: none;
     display: inline-block;
     background-color: aqua;
-    padding: 1.6rem 9rem;
+    padding: 1.6rem 8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
     border-radius: 3rem;
     transition: background-color 0.3s, padding-bottom 0.3s, padding-left 0.3s, padding-right 0.3s, padding-top 0.3s, font-size 0.3s;
+    width: 9rem;
 }
 
 .link:hover {
     background-color: mediumspringgreen;
-    padding: 2rem 8.2rem 8rem;
+    padding: 2rem 8rem 9rem;
     font-size: xx-large;
 }
 
