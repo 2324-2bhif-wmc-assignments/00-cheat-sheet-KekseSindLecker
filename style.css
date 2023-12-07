@@ -41,8 +41,21 @@ a, a:visited {
 
 .link:hover {
     background-color: mediumspringgreen;
-    padding: 2rem 8rem 9rem;
+    padding: 2rem 8rem 3rem;
     font-size: xx-large;
+}
+
+#super-main-title {
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 6rem;
+    color: darkviolet;
+    background-color: aquamarine;
+    height: 8.75rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-top: 0.5rem;
+    border-radius: 2rem;
 }
 
 #main-title {
@@ -55,6 +68,7 @@ a, a:visited {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     border-radius: 2rem;
 }
 
@@ -73,13 +87,6 @@ a, a:visited {
     background-color: darkgrey;
 }
 
-h2 {
-    color: mediumvioletred;
-    font-size: xx-large;
-    font-weight: 1000;
-    margin-left: 1rem;
-}
-
 h3 {
     color: #252525;
     font-size: x-large;
@@ -96,6 +103,13 @@ section {
     border: 1px solid darkslategrey;
     border-radius: 1.5rem;
     margin: 1rem;
-    padding: 1rem;
-    box-shadow: darkgrey .5rem .5rem .5rem;
+    padding: 1rem 1rem;
+    box-shadow: darkgrey .3rem .4rem .5rem;
+}
+
+.caption {
+    text-align: center;
+    color: #252525;
+    font-size: xx-large;
+    font-weight: 1000;
 }
