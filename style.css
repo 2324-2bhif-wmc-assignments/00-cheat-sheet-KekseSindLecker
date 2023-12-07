@@ -77,10 +77,25 @@ h2 {
     color: mediumvioletred;
     font-size: xx-large;
     font-weight: 1000;
+    margin-left: 1rem;
 }
 
 h3 {
-    color: red;
+    color: #252525;
     font-size: x-large;
     font-weight: 600;
+}
+
+#example-table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+section {
+    background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
+    border: 1px solid darkslategrey;
+    border-radius: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: darkgrey .5rem .5rem .5rem;
 }
