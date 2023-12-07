@@ -105,6 +105,11 @@ section {
     margin: 1rem;
     padding: 1rem 1rem;
     box-shadow: darkgrey .3rem .4rem .5rem;
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: translateX(5px);
 }
 
 .caption {
