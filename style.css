@@ -113,3 +113,9 @@ section {
     font-size: xx-large;
     font-weight: 1000;
 }
+
+#padding-margin-image {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
