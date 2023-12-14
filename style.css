@@ -105,11 +105,6 @@ section {
     margin: 1rem;
     padding: 1rem 1rem;
     box-shadow: darkgrey .3rem .4rem .5rem;
-    transition: transform 0.3s;
-}
-
-section:hover {
-    transform: translateX(5px);
 }
 
 .caption {
@@ -123,4 +118,29 @@ section:hover {
     width: 15rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+
+#C-crossed-out {
+    width: 10rem;
+    border-radius: 2rem;
+    animation: moveC 10s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveC {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(0, 100%);
+    }
+    50% {
+        transform: translate(88.5vw, 100%);
+    }
+    75% {
+        transform: translate(88.5vw, 0%);
+    }
+    100% {
+        transform: translate(0, 0%);
+    }
 }
