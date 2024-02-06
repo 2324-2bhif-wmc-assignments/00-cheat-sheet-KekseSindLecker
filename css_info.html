@@ -2,13 +2,24 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Cheat Sheet</title>
+        <title>CheatSheet</title>
         <link type="text/css" rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 id="main-title" class="center">Cheat Sheet</h1>
-        <a id="back-button" href="index.html">Back</a>
+        <h1 id="main-title" class="center">CheatSheet</h1>
+        <a id="home-button" href="index.html">Home</a>
         <article>
+            <div class="navbar">
+                <div>
+                    <a href="basics.html" class="navbar-element">Basics</a>
+                </div>
+                <div>
+                    <a href="html_info.html" class="navbar-element">HTML</a>
+                </div>
+                <div>
+                    <a href="css_info.html" class="navbar-element">CSS</a>
+                </div>
+            </div>
             <h2 class="caption">CSS</h2>
             <section>
                 <h3>Basic Css Structure</h3>
@@ -84,6 +95,9 @@
             </section>
             <section>
                 <h3>Pseudo Classes</h3>
+                <p>
+                    A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element, e.g.:
+                </p>
                 <ul>
                     <li>:link</li>
                     <li>:visited</li>
@@ -102,29 +116,93 @@
                 </ul>
             </section>
             <section>
-                <h3>Box Model</h3>
+                <h3>Gradients</h3>
                 <p>
-                    Margin is the space between the border and the surrounding elements. <br>
-                    Padding is the space between the content of the element and its border. <br>
-                    Block elements can have margin and padding to keep distance from all surrounding elements. <br>
-                    Inline elements stay in the line with their neighboring elements, while block elements don't. <br>
-                    <img id="padding-margin-image" src="assets/padding-margin-image.png" alt="padding-margin-image">
+                    CSS gradients let you display smooth transitions between two or more specified colors. <br>
+                    CSS defines three types of gradients:
+                </p>
+                <ul>
+                    <li>Linear Gradients (goes down/up/left/right/diagonally)</li>
+                    <li>Radial Gradients (defined by their center)</li>
+                    <li>Conic Gradients (rotated around a center point)</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Box Model</h3>
+                <div class="img-container">
+                    <div>
+                        <p>
+                            Margin is the space between the border and the surrounding elements. <br>
+                            Padding is the space between the content of the element and its border. <br>
+                            Block elements can have margin and padding to keep distance from all surrounding elements. <br>
+                            Inline elements stay in the line with their neighboring elements, while block elements don't. <br>
+                            <br>
+                            To make an image float on one side of the website, you can use the float property: <br>
+                            image { <br>
+                            &emsp;float: right; <br>
+                            }
+                            <br>
+                            <br>
+                            To stop a section element from flowing around a right floating image, you can use the clear property:
+                            <br>
+                            section { <br>
+                            &emsp;clear: right; <br>
+                            }
+                        </p>
+                    </div>
+                    <div>
+                        <img id="padding-margin-image" src="assets/padding-margin-image.png" alt="padding-margin-image">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3>Flexbox</h3>
+                <p>
+                    The flexible box layout module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities.
                     <br>
-                    To make an image float on one side of the website, you can use the float property: <br>
-                    image { <br>
-                    &emsp;float: right; <br>
-                    }
-                    <br>
-                    <br>
-                    To stop a section element from flowing around a right floating image, you can use the clear property:
-                    <br>
-                    section { <br>
-                    &emsp;clear: right; <br>
-                    }
+                    When we describe flexbox as being one-dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column. This can be contrasted with the two-dimensional model of CSS Grid Layout, which controls columns and rows together.
+                    <br> <br>
+                    <a href="assets/css-flexbox-poster.png" download="css-flexbox-poster.png" id="flexbox-poster-download">Flexbox Poster Download</a>
                 </p>
             </section>
             <section>
                 <h3>Animations</h3>
+                <div class="animation-container">
+                    <div>
+                        <span>
+                            An animation lets an element gradually change from one style to another. <br>
+                            You can change as many CSS properties you want, as many times as you want. <br>
+                            To use CSS animation, you must first specify some keyframes for the animation. <br>
+                            Keyframes hold what styles the element will have at certain times. <br>
+                            <br>
+                            For example: <br>
+                            <br>
+                            @keyframes moveSquare { <br>
+                            &emsp;25% { <br>
+                            &emsp;&emsp;background-color: yellow; <br>
+                            &emsp;&emsp;transform: translate(10rem, 0rem) rotate(-90deg) scale(150%, 150%); <br>
+                            &emsp;} <br>
+                            &emsp;50% { <br>
+                            &emsp;&emsp;background-color: green; <br>
+                            &emsp;&emsp;transform: translate(10rem, 10rem) rotate(-180deg) scale(200%, 200%); <br>
+                            &emsp;} <br>
+                            &emsp;75% { <br>
+                            &emsp;&emsp;background-color: blue; <br>
+                            &emsp;&emsp;transform: translate(0rem, 10rem) rotate(-270deg) scale(150%, 150%); <br>
+                            &emsp;} <br>
+                            &emsp;100% { <br>
+                            &emsp;&emsp;background-color: red; <br>
+                            &emsp;&emsp;transform: translate(0rem, 0rem) rotate(-360deg) scale(100%, 100%); <br>
+                            &emsp;} <br>
+                            } <br>
+                        </span>
+                    </div>
+                <div>
+                    <div>
+                        <div id="square"></div>
+                    </div>
+                </div>
+                </div>
             </section>
         </article>
     </body>
