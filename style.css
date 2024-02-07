@@ -211,3 +211,13 @@ section {
         transform: translate(0rem, 0rem) rotate(-720deg) scale(100%, 100%);
     }
 }
+
+.bootstrap-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.d-block {
+    width: 18rem;
+}
