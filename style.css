@@ -87,10 +87,12 @@ body {
 }
 
 h3 {
-    color: #252525;
-    font-size: x-large;
     font-weight: 700;
     margin-top: .5rem;
+}
+
+h4 {
+    margin-top: 1rem;
 }
 
 #example-table {
@@ -124,7 +126,7 @@ section {
     font-size: x-large;
     font-weight: 800;
     text-decoration: none;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 2rem;
     padding: 1rem 0;
     display: block;
