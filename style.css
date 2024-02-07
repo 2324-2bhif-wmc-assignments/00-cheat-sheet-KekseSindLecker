@@ -1,9 +1,10 @@
 * {
-    font-family: Arial, sans-serif;
+    box-sizing: unset;
 }
 
 body {
     background-color: beige;
+    margin: .5rem;
 }
 
 ::-webkit-scrollbar {
@@ -15,7 +16,7 @@ body {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    margin: 10rem 3rem 4rem;
+    margin: 10rem 3rem 4.1rem;
     gap: 1.5rem;
 }
 
@@ -26,14 +27,14 @@ body {
     display: inline-block;
     background-color: turquoise;
     color: black;
-    padding: 3rem 9rem;
+    padding: 3rem 5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 3.5rem;
     transform: scale(100%);
     transition: all 0.3s ease;
-    width: 6rem;
+    width: 8.5rem;
 }
 
 .link:hover {
@@ -78,6 +79,7 @@ body {
     border-radius: 1rem;
     transition: background-color 0.3s;
     color: black;
+    line-height: 1.5rem;
 }
 
 #home-button:hover {
@@ -87,7 +89,8 @@ body {
 h3 {
     color: #252525;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 700;
+    margin-top: .5rem;
 }
 
 #example-table {
@@ -100,46 +103,38 @@ section {
     border: 1px solid darkslategrey;
     border-radius: 1.5rem;
     margin: 1rem 10rem;
-    padding: 1rem 1rem;
+    padding: 1rem;
     box-shadow: darkgrey .3rem .4rem .5rem;
 }
 
-.navbar {
+.nav-bar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
-    margin: 2rem 0 5rem;
-    /*position: fixed;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);*/
+    gap: 2rem;
+    margin: 2rem 0 5rem 12.5%;
+    width: 75%;
 }
 
 .navbar-element {
+    line-height: 2rem;
     text-align: center;
     color: black;
-    font-size: xx-large;
-    font-weight: 1000;
+    font-size: x-large;
+    font-weight: 800;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 2rem;
-    padding: 1rem 3rem;
-    width: 10rem;
+    padding: 1rem 0;
     display: block;
     transition-duration: .2s;
     background-color: #cccccc;
+    width: 15rem;
 }
 
 .navbar-element:hover {
     transform: scale(110%);
-}
-
-.caption {
-    text-align: center;
-    font-size: xxx-large;
-    margin-top: 7rem;
 }
 
 .active {
@@ -185,12 +180,13 @@ section {
 .animation-container, .img-container {
     display: flex;
     flex-direction: row;
-    gap: 10rem;
+    gap: 8%;
 }
 
 #square {
     width: 100px;
     height: 100px;
+    margin-top: 5rem;
     animation: moveSquare 2.5s infinite linear;
     background-color: red;
 }
