@@ -28,9 +28,7 @@ body {
     background-color: turquoise;
     color: black;
     padding: 3rem 5rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1rem;
+    margin: 0 1.5rem 1rem;
     border-radius: 3.5rem;
     transform: scale(100%);
     transition: all 0.3s ease;
@@ -212,12 +210,12 @@ section {
     }
 }
 
+code {
+    color: black;
+}
+
 .bootstrap-container {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
-}
-
-.d-block {
-    width: 18rem;
+    gap: 3rem;
 }
